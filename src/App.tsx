@@ -1,8 +1,12 @@
 import "./App.css";
+import { Button } from "@mui/material";
 
 function App() {
   return (
-    <div>Crypto Hunter</div>
+    <div>
+      <h2>Crypto Currency Tracker</h2>
+      <Button variant="contained">Click</Button>
+    </div>
   )
 }
 
