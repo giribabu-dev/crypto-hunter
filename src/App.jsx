@@ -6,13 +6,17 @@ import CoinDetails from "./pages/CoinDetails";
 
 function App() {
   return (
-    <>
+    <div style={{
+      backgroundColor: "#14161a",
+      color: "white",
+      minHeight: "100vh"
+    }}>
       <Header />
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/coin-details/:id" element={<CoinDetails />} />
       </Routes>
-    </>
+    </div>
   )
 };
 
